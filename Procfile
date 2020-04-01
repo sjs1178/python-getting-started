@@ -1,1 +1,1 @@
-web: gunicorn hello.views --log-file -
+web: gunicorn gettingstarted.wsgi --log-file -
